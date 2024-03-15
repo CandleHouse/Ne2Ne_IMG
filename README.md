@@ -7,6 +7,7 @@ This is a method for denoising material decomposition noise in dual energy CT, a
 - [x] No need of labels
 - [x] Based on [torch-mando](https://github.com/SEU-CT-Recon/torch-mando) to generate noise online, introduce data enhancement, and provide custom reconstruction parameters
 - [x] Physical endorsement of image domain material decomposition
+- [x] Checkpoints provided in `./net/checkpoints/xxx.pth` for immediate test
 
 This method use Neighbour2Neighbour variant method, named [FIRE](https://link.springer.com/chapter/10.1007/978-3-031-43990-2_44) to improve denoise performance.
 
